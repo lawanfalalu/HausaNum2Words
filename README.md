@@ -31,12 +31,15 @@ converter = HausaNumConverter()
 
 # Convert a number to Hausa words
 result = converter.to_words(12345)
-print(result)  # Example output: "dubu goma sha biyu da dari uku da arba'in da biyar"
+print(result)  # Example output: "dubu goma sha biyu da ɗari uku da arba'in da biyar"
 ```
 
 ## Example Output
 * Input: `converter.to_words(123)`
-* Output: `"dari da ashirin da uku"`
+* Output: `"ɗari da ashirin da uku"`
+
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue to suggest improvements.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.

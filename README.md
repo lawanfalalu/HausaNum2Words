@@ -35,8 +35,8 @@ print(result)  # Example output: "dubu goma sha biyu da ɗari uku da arba'in da 
 ```
 
 ## Example Output
-* Input: `converter.to_words(123)`
-* Output: `"ɗari da ashirin da uku"`
+* Input: `converter.to_words(123.99)`
+* Output: `"ɗari da ashirin da uku da ɗigo tara tara"`
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to suggest improvements.
